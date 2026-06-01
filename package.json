@@ -1,0 +1,21 @@
+{
+  "name": "spatialtour",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-guided spatial presentation platform",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mkkellogg/gaussian-splats-3d": "^0.4.7",
+    "camera-controls": "^2.10.0",
+    "gsap": "^3.12.7",
+    "three": "^0.174.0"
+  },
+  "devDependencies": {
+    "vite": "^6.3.0"
+  }
+}
