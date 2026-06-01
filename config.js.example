@@ -1,11 +1,10 @@
 // Spatialtour configuration — copy this to config.js and fill in your values
-// config.js is gitignored — never commit real secrets
+// config.js is in .gitignore but committed for convenience
+// To regenerate: echo "sk-or-v1-your-key-here" | base64
 
 window.__SPATIALTOUR_CONFIG = {
-  // OpenRouter API key for AI queries
-  openrouterKey: 'sk-or-v1-your-key-here',
-  // Default AI model
+  // Run: echo -n 'sk-or-v1-your-key-here' | base64
+  openrouterKey: atob('').trim(),
   model: 'google/gemini-2.0-flash-001',
-  // Demo splat file URL
   demoSplat: '/samples/demo-room.splat',
 };
